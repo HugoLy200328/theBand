@@ -1,0 +1,115 @@
+/* PC */
+@media (min-width: 64em) {
+	#header .mobile-menu-btn {
+		display: none;
+	}
+}
+
+/* Tablet and mobile */
+@media (max-width: 63.9375em) {
+	.btn {
+		padding: 15px 16px;
+	}
+	.contact-submit-btn {
+		font-size: 17px;
+	}
+	.contact-form .form-control {
+		padding: 15px;
+		font-size: 16px;
+	}
+	.socials-list {
+		font-size: 64px;
+	}
+	#footer .copyright a {
+		padding: 16px;
+		display: inline-block;
+	}
+	#nav .subnav a {
+		color: rgb(10, 10, 10);
+		padding: 5px 12px;
+	}
+	.contact-info {
+		line-height: 2;
+	}
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+	#header .mobile-menu-btn {
+		display: none;
+	}
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+	.s-full-width,
+	.s-col-full {
+		width: 100% !important;
+	}
+
+	.s-mt-8 {
+		margin-top: 8px !important;
+	}
+	#header {
+		overflow: hidden;
+	}
+
+	#header .search_button {
+		display: none;
+	}
+
+	#header .mobile-menu-btn {
+		display: block;
+	}
+
+	#nav {
+		display: block;
+	}
+	#nav > li {
+		display: block;
+	}
+	#nav > li:hover,
+	#nav .subnav li:hover {
+		color: black;
+		background-color: rgb(168, 168, 168);
+	}
+
+	#nav > li:first-child {
+		display: inline-block;
+	}
+
+	#hav li a {
+		padding: 1px 24px;
+	}
+
+	#nav .subnav {
+		position: initial;
+		background-color: #333;
+	}
+	#nav .subnav a {
+		color: white;
+		padding: 5px 42px;
+	}
+
+	#content .member-list {
+		display: flex;
+		flex-direction: column;
+	}
+	#content .member-list .member-item {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 30px;
+		width: 100%;
+		height: 300px;
+	}
+
+	#content .pic-contain img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.contact-form {
+		margin-top: 32px;
+	}
+}
